@@ -1,2 +1,2 @@
 # DSA-Kaempfer
-An online app for managing fights in DSA
+An online app for managing characters in DSA
