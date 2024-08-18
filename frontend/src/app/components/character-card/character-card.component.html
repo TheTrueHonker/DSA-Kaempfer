@@ -1,0 +1,22 @@
+<div class="character-container">
+    <mat-card [appearance]="'outlined'" class="flex-column">
+        <mat-card-header>
+            <mat-card-title-group>
+                <mat-card-title>{{ characterData().name }}</mat-card-title>
+                <mat-card-subtitle>{{ characterData().race }}</mat-card-subtitle>
+            </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            <app-character-bar-with-values
+                    [name]="'HP'"
+                    [currentValue]="characterData().currentHP"
+                    [maxValue]="characterData().maxHP"
+            ></app-character-bar-with-values>
+            <app-character-bar-with-values
+                    [name]="'Stamina'"
+                    [currentValue]="characterData().currentStamina"
+                    [maxValue]="characterData().maxStamina"
+            ></app-character-bar-with-values>
+        </mat-card-content>
+    </mat-card>
+</div>
