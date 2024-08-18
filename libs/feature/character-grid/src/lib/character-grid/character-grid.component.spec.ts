@@ -1,21 +1,13 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { createComponentFactory, Spectator } from '@ngneat/spectator';
 import { CharacterGridComponent } from './character-grid.component';
 
 describe('CharacterGridComponent', () => {
-  let component: CharacterGridComponent;
-  let fixture: ComponentFixture<CharacterGridComponent>;
+    let spectator: Spectator<CharacterGridComponent>;
+    const createComponent = createComponentFactory(CharacterGridComponent);
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      imports: [CharacterGridComponent],
-    }).compileComponents();
+    beforeEach(() => spectator = createComponent());
 
-    fixture = TestBed.createComponent(CharacterGridComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+    it('should create', () => {
+        expect(spectator.component).toBeTruthy();
+    });
 });

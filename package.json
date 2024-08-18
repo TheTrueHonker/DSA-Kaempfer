@@ -34,6 +34,7 @@
     "@angular/cli": "~18.2.0",
     "@angular/compiler-cli": "~18.2.0",
     "@angular/language-service": "~18.2.0",
+    "@ngneat/spectator": "^19.0.0",
     "@nx/devkit": "19.6.0",
     "@nx/eslint": "19.6.0",
     "@nx/eslint-plugin": "19.6.0",
