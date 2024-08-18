@@ -2,6 +2,8 @@ import { Component, computed, input } from '@angular/core';
 import { MatProgressBar } from "@angular/material/progress-bar";
 import { NgClass } from "@angular/common";
 
+type ValidNames = 'HP' | 'Stamina';
+
 @Component({
     selector: 'app-character-bar-with-values',
     standalone: true,
@@ -14,7 +16,7 @@ import { NgClass } from "@angular/common";
 })
 export class CharacterBarWithValuesComponent {
 
-    name = input.required<string>();
+    name = input.required<ValidNames>();
     currentValue = input.required<number>();
     maxValue = input.required<number>();
 
