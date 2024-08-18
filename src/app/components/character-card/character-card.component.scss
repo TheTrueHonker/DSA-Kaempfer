@@ -1,0 +1,20 @@
+:host {
+    min-width: 200px;
+}
+
+.character-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+mat-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
