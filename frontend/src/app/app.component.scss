@@ -1,0 +1,13 @@
+main {
+    max-width: var(--content-width);
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: 0 auto;
+    flex-grow: 1;
+
+    //TODO: remove later
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+
+}
