@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { CharacterCardComponent } from './character-card.component';
-import { Character } from '@DSA-Kaempfer/business-character-grid';
+import { Character } from '../../types/character.type';
 
 const CHARACTER_DATA: Character = {
     name: 'ScriptWizard',

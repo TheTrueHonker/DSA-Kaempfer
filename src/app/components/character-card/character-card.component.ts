@@ -1,6 +1,5 @@
 import { Component, input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Character } from '@DSA-Kaempfer/business-character-grid';
 import {
     MatCard,
     MatCardContent,
@@ -10,6 +9,7 @@ import {
     MatCardTitleGroup
 } from '@angular/material/card';
 import { CharacterBarWithValuesComponent } from '../character-bar-with-values/character-bar-with-values.component';
+import { Character } from '../../types/character.type';
 
 @Component({
     selector: 'app-character-card',

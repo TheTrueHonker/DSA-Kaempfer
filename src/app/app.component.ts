@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { CHARATER_DATA } from '@DSA-Kaempfer/business-character-grid';
-import { CharacterCardComponent } from '@DSA-Kaempfer/character-grid';
 import { CommonModule } from '@angular/common';
+import { CharacterCardComponent } from './components/character-card/character-card.component';
+import { CHARATER_DATA } from './consts/character-data.const';
 
 @Component({
     standalone: true,
@@ -12,6 +12,5 @@ import { CommonModule } from '@angular/common';
     styleUrl: './app.component.scss'
 })
 export class AppComponent {
-    title = 'DSA-Kaempfer';
     characters = CHARATER_DATA;
 }
