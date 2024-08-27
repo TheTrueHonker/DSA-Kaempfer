@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { CharacterCardComponent } from './components/character-card/character-card.component';
-import { CHARATER_DATA } from './consts/character-data.const';
+import { CHARACTER_DATA } from './consts/character-data.const';
 
 @Component({
     standalone: true,
@@ -12,5 +12,5 @@ import { CHARATER_DATA } from './consts/character-data.const';
     styleUrl: './app.component.scss'
 })
 export class AppComponent {
-    characters = CHARATER_DATA;
+    characters = CHARACTER_DATA;
 }

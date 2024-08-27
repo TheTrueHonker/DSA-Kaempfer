@@ -1,5 +1,13 @@
 :host {
     min-width: 200px;
+
+    &:hover {
+        cursor: pointer;
+
+        mat-card {
+            filter: brightness(140%);
+        }
+    }
 }
 
 .character-container {
