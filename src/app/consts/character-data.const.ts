@@ -1,6 +1,6 @@
 import { Character } from '../types/character.type';
 
-export const CHARATER_DATA: Character[] = [
+export const CHARACTER_DATA: Character[] = [
     {
         name: 'CodeMaster',
         race: 'Human',
