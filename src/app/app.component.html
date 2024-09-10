@@ -1,11 +1,9 @@
 <main>
+    <app-navigation-bar></app-navigation-bar>
 
     <router-outlet></router-outlet>
 
     <div class="flex-row">
-        <app-character-card
-                *ngFor="let character of characters"
-                [characterData]="character"
-        ></app-character-card>
+        <app-character-card *ngFor="let character of characters" [characterData]="character"></app-character-card>
     </div>
 </main>
