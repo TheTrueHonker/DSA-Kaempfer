@@ -25,7 +25,7 @@
   "resolveGlobalModules": false,
   "semi": true,
   "singleAttributePerLine": false,
-  "singleQuote": false,
+  "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "es5",
   "useEditorConfig": true,
