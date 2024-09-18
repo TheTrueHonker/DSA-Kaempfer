@@ -1,16 +1,16 @@
-nav{
-    position: fixed;
-    top: 1em;
-    width: var(--content-width);
-    z-index: 2;
-    background-color: #810081;
-    display: flex;
-    justify-content: space-between;
-    flex: 1 1 auto;
-    border-radius: 1em;
+nav {
+  position: fixed;
+  top: 1em;
+  width: var(--content-width);
+  z-index: 2;
+  background-color: #810081;
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  border-radius: 1em;
 }
 
-.primary-content{
-    display: flex;
-    justify-content: space-between;
+.primary-content {
+  display: flex;
+  justify-content: space-between;
 }

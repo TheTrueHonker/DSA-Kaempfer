@@ -1,8 +1,8 @@
 export type Character = {
-    name: string;
-    race: string;
-    currentHP: number;
-    maxHP: number;
-    currentStamina: number;
-    maxStamina: number;
-}
+  name: string;
+  race: string;
+  currentHP: number;
+  maxHP: number;
+  currentStamina: number;
+  maxStamina: number;
+};

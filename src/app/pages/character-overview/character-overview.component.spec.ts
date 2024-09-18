@@ -1,12 +1,12 @@
-import { Spectator, createComponentFactory } from '@ngneat/spectator';
+import { Spectator, createComponentFactory } from "@ngneat/spectator";
 
-import { CharacterOverviewComponent } from './character-overview.component';
+import { CharacterOverviewComponent } from "./character-overview.component";
 
-describe('CharacterOverviewComponent', () => {
+describe("CharacterOverviewComponent", () => {
   let spectator: Spectator<CharacterOverviewComponent>;
   const createComponent = createComponentFactory(CharacterOverviewComponent);
 
-  it('should create', () => {
+  it("should create", () => {
     spectator = createComponent();
 
     expect(spectator.component).toBeTruthy();
