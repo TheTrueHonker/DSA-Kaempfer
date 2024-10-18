@@ -1,5 +1,8 @@
 # DSA-Kaempfer
 
+[![Development](https://github.com/TheTrueHonker/DSA-Kaempfer/actions/workflows/angular-build.yml/badge.svg?branch=development)](https://github.com/TheTrueHonker/DSA-Kaempfer/actions/workflows/angular-build.yml)
+[![Main](https://github.com/TheTrueHonker/DSA-Kaempfer/actions/workflows/angular-build.yml/badge.svg?branch=main)](https://github.com/TheTrueHonker/DSA-Kaempfer/actions/workflows/angular-build.yml)
+
 ## Run tasks
 
 To run the dev server for your app, use:
