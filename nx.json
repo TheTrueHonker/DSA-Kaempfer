@@ -30,7 +30,7 @@
         "{workspaceRoot}/.eslintignore",
         "{workspaceRoot}/eslint.config.js"
       ]
-    }
+    },
     "targetDefaults": {
         "@angular-devkit/build-angular:application": {
             "cache": true,
