@@ -24,6 +24,10 @@ jobs:
             - name: Enter workspace
               run: cd $GITHUB_WORKSPACE
 
+            # {2.2}
+            - name: Print workspace
+              run: echo $GITHUB_WORKSPACE
+
             # {3}
             - name: Setup Node.js ${{ matrix.node-version }}
               uses: actions/setup-node@v3
