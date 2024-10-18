@@ -5,7 +5,8 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "jest"
+    "test": "jest",
+    "test:ci": "jest --collectCoverage"
   },
   "private": true,
   "dependencies": {
